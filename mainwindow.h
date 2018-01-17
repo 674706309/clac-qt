@@ -45,7 +45,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    bool status=true;//等待运算符
+    bool status;//等待运算符
     QString exp,ans;
 
     void clearEdit();

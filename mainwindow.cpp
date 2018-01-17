@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
+    status=true;
 //    ui->activeEdit->setAlignment(Qt::AlignRight);
 //    ui->lastEdit->setAlignment(Qt::AlignRight);
 
